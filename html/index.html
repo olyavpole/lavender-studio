@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavender Studio</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <div class="page__wrapper">
+
+        <div class="page__content">
+            <div class="page__inner">
+                @@include('_header.html')
+
+                <section class="welcome">
+                    <div class="container">
+                        <div class="welcome__inner">
+                            <div class="welcome__wrapper">
+                                <div class="welcome__title">
+                                    Лучшие специалисты бьюти - сферы для твоей красоты
+                                </div>
+                                <div class="welcome__text">
+                                    Качественные услуги, стильный интерьер и оптимальные цены
+                                </div>
+                                <a class="welcome__btn button" data-fancybox data-src="#register-form"
+                                    href="javascript:;">
+                                    онлайн-запись
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="sale" id="sale">
+                    <div class="container">
+                        <div class="sale__title title">
+                            Акции
+                        </div>
+                        <div class="sale__slider">
+                            <div class="sale__slider-item">
+                                <img class="sale__slider-image" src="images/sale/lady.png" alt="image">
+                                <div class="sale__slider-content">
+                                    <div class="sale__slider-title">
+                                        Соберем тебя на мероприятие!
+                                    </div>
+                                    <div class="sale__slider-subtitle">
+                                        Укладка и макияж со скидкой 30%
+                                    </div>
+                                    <div class="sale__slider-price">
+                                        от 3000 рублей
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="sale__slider-item sale__slider-item--left">
+                                <img class="sale__slider-image" src="images/sale/nails.png" alt="image">
+                                <div class="sale__slider-content">
+                                    <div class="sale__slider-title">
+                                        Маникюр и педикюр в 4 руки
+                                    </div>
+                                    <div class="sale__slider-price">
+                                        от 2500 рублей
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="sale__slider-item">
+                                <img class="sale__slider-image" src="../images/sale/man.png" alt="image">
+                                <div class="sale__slider-content">
+                                    <div class="sale__slider-title">
+                                        При модельной мужской стрижке
+                                    </div>
+                                    <div class="sale__slider-subtitle">
+                                        Стрижка бороды в подарок
+                                    </div>
+                                    <div class="sale__slider-price">
+                                        от 1000 рублей
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <section class="services" id="services">
+                <div class="container">
+                    <div class="services__title title">
+                        Наши услуги
+                    </div>
+                    <div class="services__inner">
+
+                        <div class="services__item">
+                            <a href="services__item-link">
+                                <img class="services__item-img" src="images/manicure/nails1.jpg" alt="img">
+                            </a>
+                            <div class="services__item-content">
+                                <a class="services__item-title" href="single-service.html">
+                                    Ногтевой сервис
+                                </a>
+                                <div class="services__item-text">
+                                    Ухоженные красивы ногти, яркие цвета, а также массаж рук и другие SPA-процедуры.
+                                </div>
+                                <a class="services__item-btn" href="single-service.html">Узнать больше</a>
+                            </div>
+                        </div>
+
+                        <div class="services__item">
+                            <a href="services__item-link">
+                                <img class="services__item-img" src="images/hair/hair-1.jpg" alt="img">
+                            </a>
+                            <div class="services__item-content">
+                                <a class="services__item-title" href="single-service.html">
+                                    Парихмахерский зал
+                                </a>
+                                <div class="services__item-text">
+                                    Любая желаемая Вами стрижка, уход за волосами и окрашивание любой сложности.
+                                </div>
+                                <a class="services__item-btn" href="single-service.html">Узнать больше</a>
+                            </div>
+                        </div>
+
+                        <div class="services__item">
+                            <a href="services__item-link">
+                                <img class="services__item-img" src="images/makeup/make.jpg" alt="img">
+                            </a>
+                            <div class="services__item-content">
+                                <a class="services__item-title" href="single-service.html">
+                                    Визаж
+                                </a>
+                                <div class="services__item-text">
+                                    Макияж и укладка для праздничного мероприятия или на каждый день.
+                                </div>
+                                <a class="services__item-btn" href="single-service.html">Узнать больше</a>
+                            </div>
+                        </div>
+
+                        <div class="services__item">
+                            <a href="services__item-link">
+                                <img class="services__item-img" src="images/brows/brows.jpg" alt="img">
+                            </a>
+                            <div class="services__item-content">
+                                <a class="services__item-title" href="single-service.html">
+                                    Брови и ресницы
+                                </a>
+                                <div class="services__item-text">
+                                    Наращивание, ламинирование, уход за ресницами. Коррекция, окраска и микроблейдинг
+                                    бровей.
+                                </div>
+                                <a class="services__item-btn" href="single-service.html">Узнать больше</a>
+                            </div>
+                        </div>
+
+                        <div class="services__item">
+                            <a href="services__item-link">
+                                <img class="services__item-img" src="images/cosmetology/cosmetology.jpg" alt="img">
+                            </a>
+                            <div class="services__item-content">
+                                <a class="services__item-title" href="single-service.html">
+                                    Косметология
+                                </a>
+                                <div class="services__item-text">
+                                    Профессиональное решение любых проблем с кожей, а также забота о лице и теле.
+                                </div>
+                                <a class="services__item-btn" href="single-service.html">Узнать больше</a>
+                            </div>
+                        </div>
+
+                        <div class="services__item">
+                            <a href="services__item-link">
+                                <img class="services__item-img" src="images/depi.jpg" alt="img">
+                            </a>
+                            <div class="services__item-content">
+                                <a class="services__item-title" href="single-service.html">
+                                    Депиляция
+                                </a>
+                                <div class="services__item-text">
+                                    Избавления от нежелательных волос максимально быстро и настролько безболезнено,
+                                    насколько это только возможно.
+                                </div>
+                                <a class="services__item-btn" href="single-service.html">Узнать больше</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="our-masters" id="masters">
+                <div class="container">
+                    <div class="our-masters__title title">
+                        Наши мастера
+                    </div>
+                    <div class="our-masters__slider">
+                        <div class="our-masters__item">
+                            <div class="our-masters__wrapper">
+                                <img class="our-masters__item-avatar" src="images/master/master1.jpg" alt="avatar">
+                                <a class="our-masters__item-title our-masters__item-title--name" href="single-master.html">
+                                    Марина
+                                </a>
+                                <div class="our-masters__item-title">
+                                    Парихмахер-стилист
+                                </div>
+                                <div class="our-masters__item-text">
+                                    Обожаю создавать новые образы! А если у Вас
+                                    запланировано какое-то торжество, или Вы - счастливая невеста,выпускница,
+                                    именинница, то буду рада подарить Вам прекрасное настроение и потрясающую прическу -
+                                    это мое призвание!
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="our-masters__item">
+                            <div class="our-masters__wrapper">
+                                <img class="our-masters__item-avatar" src="images/master/master2.jpg" alt="avatar">
+                                <a class="our-masters__item-title our-masters__item-title--name" href="single-master.html">
+                                    Наталья
+                                </a>
+                                <div class="our-masters__item-title">
+                                    Мастер ногтевого сервиса
+                                </div>
+                                <div class="our-masters__item-text">
+                                    Обожаю создавать новые образы! А если у Вас
+                                    запланировано какое-то торжество, или Вы - счастливая невеста,выпускница,
+                                    именинница, то буду рада подарить Вам прекрасное настроение и потрясающую прическу -
+                                    это мое призвание!
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="our-masters__item">
+                            <div class="our-masters__wrapper">
+                                <img class="our-masters__item-avatar" src="images/master/master3.jpg" alt="avatar">
+                                <a class="our-masters__item-title our-masters__item-title--name" href="single-master.html">
+                                    Татьяна
+                                </a>
+                                <div class="our-masters__item-title">
+                                    Косметолог
+                                </div>
+                                <div class="our-masters__item-text">
+                                    Обожаю создавать новые образы! А если у Вас
+                                    запланировано какое-то торжество, или Вы - счастливая невеста,выпускница,
+                                    именинница, то буду рада подарить Вам прекрасное настроение и потрясающую прическу -
+                                    это мое призвание!
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="our-masters__item">
+                            <div class="our-masters__wrapper">
+                                <img class="our-masters__item-avatar" src="images/master/master4.jpg" alt="avatar">
+                                <a class="our-masters__item-title our-masters__item-title--name" href="single-master.html">
+                                    Виктория
+                                </a>
+                                <div class="our-masters__item-title">
+                                    Массажист
+                                </div>
+                                <div class="our-masters__item-text">
+                                    Обожаю создавать новые образы! А если у Вас
+                                    запланировано какое-то торжество, или Вы - счастливая невеста,выпускница,
+                                    именинница, то буду рада подарить Вам прекрасное настроение и потрясающую прическу -
+                                    это мое призвание!
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="our-masters__item">
+                            <div class="our-masters__wrapper">
+                                <img class="our-masters__item-avatar" src="images/master/master1.jpg" alt="avatar">
+                                <a class="our-masters__item-title our-masters__item-title--name" href="single-master.html">
+                                    Марина
+                                </a>
+                                <div class="our-masters__item-title">
+                                    Парихмахер-стилист
+                                </div>
+                                <div class="our-masters__item-text">
+                                    Обожаю создавать новые образы! А если у Вас
+                                    запланировано какое-то торжество, или Вы - счастливая невеста,выпускница,
+                                    именинница, то буду рада подарить Вам прекрасное настроение и потрясающую прическу -
+                                    это мое призвание!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="reviews" id="reviews">
+                <div class="container">
+                    <div class="reviews__title title">
+                        Наши отзывы
+                    </div>
+                    <div class="reviews__inner">
+                        <div class="reviews__item">
+                            <div class="reviews__item-top">
+                                <div class="reviews__item-line">
+                                    Дата посещения:
+                                    <span>11.07.2020</span>
+                                </div>
+                                <div class="reviews__item-line">
+                                    Имя клиента:
+                                    <span>Марина</span>
+                                </div>
+                                <div class="reviews__item-line">
+                                    Процедура:
+                                    <span>Чистка лица</span>
+                                </div>
+                                <div class="reviews__item-line">
+                                    Имя мастера:
+                                    <a class="reviews__item-link" href="single-master.html">Анастасия</a>
+                                </div>
+                            </div>
+                            <div class="reviews__item-text">
+                                Мне все понравилось. Видно сразу мастер-профессионал своего дела! Все проговорила,
+                                каждое действие и что наносит на лицо, какая может быть реакция, что как действует на
+                                кожу. Делала все очень аккуратно и грамотно. Обязательно приду к данному мастеру еще и
+                                буду рекомендовать друзьям.
+                            </div>
+                        </div>
+                        <div class="reviews__item">
+                            <div class="reviews__item-top">
+                                <div class="reviews__item-line">
+                                    Дата посещения:
+                                    <span>11.07.2020</span>
+                                </div>
+                                <div class="reviews__item-line">
+                                    Имя клиента:
+                                    <span>Марина</span>
+                                </div>
+                                <div class="reviews__item-line">
+                                    Процедура:
+                                    <span>Чистка лица</span>
+                                </div>
+                                <div class="reviews__item-line">
+                                    Имя мастера:
+                                    <a class="reviews__item-link" href="single-master.html">Анастасия</a>
+                                </div>
+                            </div>
+                            <div class="reviews__item-text">
+                                Мне все понравилось. Видно сразу мастер-профессионал своего дела! Все проговорила,
+                                каждое действие и что наносит на лицо, какая может быть реакция, что как действует на
+                                кожу. Делала все очень аккуратно и грамотно. Обязательно приду к данному мастеру еще и
+                                буду рекомендовать друзьям.
+                            </div>
+                        </div>
+                        <div class="reviews__item">
+                            <div class="reviews__item-top">
+                                <div class="reviews__item-line">
+                                    Дата посещения:
+                                    <span>11.07.2020</span>
+                                </div>
+                                <div class="reviews__item-line">
+                                    Имя клиента:
+                                    <span>Марина</span>
+                                </div>
+                                <div class="reviews__item-line">
+                                    Процедура:
+                                    <span>Чистка лица</span>
+                                </div>
+                                <div class="reviews__item-line">
+                                    Имя мастера:
+                                    <a class="reviews__item-link" href="single-master.html">Анастасия</a>
+                                </div>
+                            </div>
+                            <div class="reviews__item-text">
+                                Мне все понравилось. Видно сразу мастер-профессионал своего дела! Все проговорила,
+                                каждое действие и что наносит на лицо, какая может быть реакция, что как действует на
+                                кожу. Делала все очень аккуратно и грамотно. Обязательно приду к данному мастеру еще и
+                                буду рекомендовать друзьям.
+                            </div>
+                        </div>
+                    </div>
+                    <a class="reviews__btn button" href="all-reviews.html">Посмотреть все отзывы</a>
+                </div>
+            </section>
+
+            <section class="contacts" id="contacts">
+                <div class="container">
+                    <div class="contacts__title title">
+                        Контакты
+                    </div>
+                    <div class="contacts__inner">
+                        <div class="contacts__map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.0581184095863!2d30.358355015944227!3d59.93117778187343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469631a5e66d51c5%3A0x6f00589ac258db97!2z0J3QtdCy0YHQutC40Lkg0L_RgC4sINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCz!5e0!3m2!1sru!2sru!4v1607592379268!5m2!1sru!2sru" style="border:0;" allowfullscreen=""
+                                aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+                        <address class="contacts__address">
+                            <a class="contacts__address-item contacts__address-item--phone"
+                                href="tel:79119111111">89119111111</a>
+                            <a class="contacts__address-item contacts__address-item--email"
+                                href="mailto:beautystudio@lavender.com">beautystudio@lavender.com</a>
+                            <div class="contacts__address-item contacts__address-item--address">
+                                Студия красоты Лаванда, Невский проспект 21
+                            </div>
+                            <div class="contacts__address-item contacts__address-item--time">
+                                Пн-Вс
+                                <span>10:00 - 22:00</span>
+                            </div>
+                            <a class="contacts__address-btn button" data-fancybox data-src="#register-form"
+                            href="javascript:;">Записаться</a>
+                        </address>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="popup-form whitespace" id="register-form">
+            <div class="popup-form__title">
+                Онлайн-запись
+            </div>
+
+            <form class="popup-form__form">
+                <label for="service" class="popup-form__label">Выбрать услугу</label>
+                <select class="popup-form__item" name="service" id="service">
+                    <optgroup label="Ногтевой сервис">
+                        <option value="Маникюр">Маникюр</option>
+                        <option value="Педикюр">Педикюр</option>
+                        <option value="Наращивание ногтей">Наращивание ногтей</option>
+                    </optgroup>
+
+                    <optgroup label="Парихмахерский зал">
+                        <option value="Стрижка">Стрижка</option>
+                        <option value="Покраска волос">Покраска волос</option>
+                        <option value="Уход за волосами">Уход за волосами</option>
+                    </optgroup>
+                </select>
+
+                <label for="master" class="popup-form__label">Выбрать специалиста</label>
+                <select class="popup-form__item" name="master" id="master">
+                    <optgroup label="Ногтевой сервис">
+                        <option value="Надежда">Надежда</option>
+                        <option value="Марина">Марина</option>
+                        <option value="Анастасия">Анастасия</option>
+                    </optgroup>
+
+                    <optgroup label="Парихмахерский зал">
+                        <option value="Анастасия">Анастасия</option>
+                        <option value="Олеся">Олеся</option>
+                        <option value="Олег">Олег</option>
+                    </optgroup>
+                </select>
+
+                <label for="date" class="popup-form__label">Выбрать дату</label>
+                <input class="popup-form__item" name="date" id="date" type="date" required>
+
+                <label for="time" class="popup-form__label">Выбрать время</label>
+                <input class="popup-form__item popup-form__item--time" name="time" id="time" type="time" required>
+
+                <label for="comment" class="popup-form__label"></label>
+                <textarea class="popup-form__item popup-form__item--textarea" name="comment" id="comment"
+                    placeholder="Ваш комментарий"></textarea>
+
+                <button class="popup-form__btn" type="submit">Записаться</button>
+            </form>
+        </div>
+
+        @@include('_footer.html')
+    </div>
+    <a class="btn" data-fancybox data-src="#register-form"
+    href="javascript:;">Онлайн-запись</a>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
